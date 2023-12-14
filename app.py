@@ -12,5 +12,5 @@ def home():
 def error(name):
     return f"<h1>error</h1> <h4>this page has gone extinct. go back to the main website.</h4>"
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
